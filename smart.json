@@ -1,8 +1,0 @@
-{
-    "name": "leaflet-textpath",
-    "description": "leaflet-textpath is allow you to add texts on paths.",
-    "homepage": "https://github.com/fuatsengul/leafelet-textpath",
-    "author": "Fuat Sengul",
-    "version": "0.1.1",
-    "git": "https://github.com/fuatsengul/leafelet-textpath.git"
-}
