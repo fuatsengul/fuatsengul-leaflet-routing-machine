@@ -8,9 +8,9 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles([
-    'lib/leafelet-routing-machine.js',
-    'lib/leafelet-routing-machine.min.js',
-    'lib/leafelet-routing-machine.css']);
+    'lib/leaflet-routing-machine',
+    'lib/leaflet-routing-machine.min.js',
+    'lib/leaflet-routing-machine.css']);
 
   api.use('mrt:leaflet@0.3.8', 'client');
 });
@@ -22,7 +22,7 @@ Package.onTest(function(api) {
   api.use('mrt:leaflet@0.3.8');
   api.use('fuatsengul:leaflet-routing-machine');
   api.addFiles([
-    'lib/leafelet-routing-machine.js',
-    'lib/leafelet-routing-machine.min.js',
-    'lib/leafelet-routing-machine.css']);
+    'lib/leaflet-routing-machine.js',
+    'lib/leaflet-routing-machine.min.js',
+    'lib/leaflet-routing-machine.css']);
 });
