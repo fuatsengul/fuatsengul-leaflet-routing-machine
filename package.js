@@ -8,7 +8,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles([
-    'lib/leaflet-routing-machine',
+    'lib/leaflet-routing-machine.js',
     'lib/leaflet-routing-machine.min.js',
     'lib/leaflet-routing-machine.css']);
 
